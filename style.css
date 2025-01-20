@@ -1,0 +1,223 @@
+.navi ul{
+    display: inline;
+    text-align: center;
+    align-self: center;
+    align-items: center;
+}
+.navilinks {
+list-style: none;
+display: flex;
+
+}
+.navi li{
+    display: inline;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 30px;
+    text-align: right;
+    align-items: center;
+    
+}
+.navi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #868967;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+}
+.navilinks a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+navilinks a:hover{
+    background-color: #575757;
+    border-radius: 5px;
+}
+.intro {
+    display: inline;
+    display: flex;
+     align-items: center;
+}
+.intro img{
+    height: 500px;
+    width: 500px;
+    margin: 100px;
+}
+body {
+        background-image: url('background.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+}
+
+.education-section {
+    margin: 50px;
+    padding: 30px;
+    background-color:rgb(228, 226, 209); /* Light background for contrast */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+}
+
+
+
+.education-item {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-left: 5px solid #f5a623;
+    background: rgb(211, 207, 146); 
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.education-item h3 {
+    font-size: 1.5em;
+    margin: 0 0 5px;
+    color: #333; 
+}
+
+
+.education-item p {
+    font-size: 1em;
+    color: #666; 
+    margin: 5px 0;
+}
+.projectitem{
+    width: 33%;
+    margin: 50px; 
+    border-style: ridge; 
+    border-radius: 20px; 
+    border-color: rgb(248, 221, 188); 
+    background-color: rgb(211, 207, 146);"
+}
+
+.projectitem img{
+    width:90%;
+    margin: 10px; 
+    border-style: 
+    groove;border-width: 5px; 
+    border-color:  rgb(182, 159, 82); 
+    border-radius: 10px; 
+    align-self: auto;
+}
+.topics{
+    margin: 50px; 
+    border-style: ridge; 
+    border-radius: 20px; 
+    border-color: rgb(248, 221, 188);
+}
+.btn{
+    width: 20%;
+    border-radius: 10px; 
+    background-color: #bfc445; 
+    font-size: 35%; color: rgb(62, 82, 98); 
+    border: rgb(184, 162, 91); 
+    border-style: groove; 
+    border-width: 5px;
+}
+
+.contact-section {
+    margin: 50px auto;
+    padding: 30px;
+    max-width: 600px;
+    background-color: rgb(211, 207, 146);
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.contact-details p {
+    font-size: 1.2em;
+    color: #555;
+    margin: 10px 0;
+}
+
+.contact-details a {
+    color: #007BFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact-details a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+}
+/* Footer*/
+.footer-menu {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.naviLinks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    gap: 20px;
+}
+
+.naviLinks li {
+    margin: 0;
+}
+
+.naviLinks a {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.naviLinks a:hover {
+    color: #ecf073;
+}
+
+
+.contact-button button {
+    padding: 8px 16px;
+    background-color: #ecf073;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-button button:hover {
+    background-color: #d4c437;
+}
+
+
+.footer-icons {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-icon {
+    margin: 0 15px;
+    display: inline-block;
+}
+
+.footer-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+.footer-icon:hover img {
+    opacity: 0.7;
+}
